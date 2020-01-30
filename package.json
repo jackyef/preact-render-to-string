@@ -7,6 +7,13 @@
   "umd:main": "dist/index.js",
   "module": "dist/index.module.js",
   "jsnext:main": "dist/index.module.js",
+  "exports": {
+    "./jsx": {
+      "require": "./jsx.js",
+      "import": "./jsx.module.js",
+      "browser": "./jsx.js"
+    }
+  },
   "scripts": {
     "build": "npm run -s transpile && npm run -s transpile:jsx && npm run -s copy-typescript-definition",
     "transpile": "microbundle src/index.js -f es,umd --target web --external preact",
