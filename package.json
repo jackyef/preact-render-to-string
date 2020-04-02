@@ -1,5 +1,5 @@
 {
-  "name": "preact-render-to-string",
+  "name": "@jackyef/preact-render-to-string",
   "amdName": "preactRenderToString",
   "version": "5.1.4",
   "description": "Render JSX to an HTML string, with support for Preact components.",
