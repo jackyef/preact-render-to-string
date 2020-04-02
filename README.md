@@ -1,3 +1,5 @@
+This is a fork to apply this: https://github.com/preactjs/preact-render-to-string/pull/139
+
 # preact-render-to-string
 
 [![NPM](http://img.shields.io/npm/v/preact-render-to-string.svg)](https://www.npmjs.com/package/preact-render-to-string)
